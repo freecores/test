@@ -109,16 +109,19 @@
 //  complete before starting the ir1 operation  
 //-------1---------2---------3--------CVS Log -----------------------7---------8---------9--------0
 //
-//  $Id: memstate2.v,v 1.1 2004-04-17 07:39:21 mihal Exp $
+//  $Id: memstate2.v,v 1.2 2004-04-17 08:02:00 mihal Exp $
 //
-//  $Date: 2004-04-17 07:39:21 $
-//  $Revision: 1.1 $
+//  $Date: 2004-04-17 08:02:00 $
+//  $Revision: 1.2 $
 //  $Author: mihal $
 //  $Locker:  $
 //  $State: Exp $
 //
 // Change History:
 //      $Log: not supported by cvs2svn $
+//      Revision 1.1  2004/04/17 07:39:21  mihal
+//      testing lint
+//
 //      Revision 1.4  2004/04/16 18:16:57  bporcella
 //      try lint
 //
@@ -133,7 +136,9 @@
 //
 //
 //
+//
 //-------1---------2---------3--------Module Name and Port List------7---------8---------9--------0
+
 module memstate2(wb_adr, wb_we, wb_cyc, wb_stb, wb_lock, wb_tga_io, wb_dat_o,  add_out,
                 exec_ir2, ir1, ir2, ir1dd, ir1fd, ir2dd, ir2fd, nn, sp,
                 
